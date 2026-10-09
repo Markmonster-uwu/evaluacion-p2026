@@ -22,4 +22,46 @@ img {
 /* Tu código va aquí */
 body {
   font-size: 1.6rem;
+  font-family:var(Noto);
+}
+
+
+.container {
+
+  width: 140rem;
+  margin: auto;
+}
+.header-container{
+  
+  border-radius: 0.1rem;
+  background-color: #ffffff;
+  border-bottom: padding 1.6rem;
+  justify-content: space-between;
+  align-items: center ;
+}
+.nav-container {
+  border-radius: 0.1rem;
+  background-color: #ffffff;
+  border-bottom: padding 1.6rem;
+  justify-content: space-between;
+  align-items: center ;
+}
+.logo-navbar {
+  color: #1a1a1a;
+  width: 1.6rem;
+}
+
+.nav-items {
+  display: flex;
+  color: #555555 1.4rem;
+  padding: 2.8rem;
+  flex-direction: column;
+
+}
+.subtitulo {
+  color: #888888;
+}
+.footer-container {
+  background-color: #111111;
+  border-bottom: padding 3.6;
 }
